@@ -512,7 +512,7 @@ export class Api {
         });
     }
 
-    private async generateTapos(
+    public async generateTapos(
         info: GetInfoResult | undefined,
         transaction: Transaction,
         blocksBehind: number | undefined,
